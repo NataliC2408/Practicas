@@ -1,0 +1,25 @@
+h1 {border:5px dotted pink;
+padding-left: 500px; padding-right: 500px;}
+h2 {border:5px solid greenyellow;
+    padding-left: 500px; padding-right: 500px;}
+h3 {border-bottom:5px ridge rgb(160, 245, 248);
+    border-top:5px ridge blueviolet;
+    padding-left: 500px; padding-right: 500px;}
+h4  {border-left:6px dotted blue;
+    border-right:6px dotted blue;
+    border-top:6px hidden greenyellow; 
+    padding-left: 500px; padding-right: 500px;}
+h5 {border-top:5px dashed rgb(0, 0, 0);
+    border-bottom:5px dashed orange;
+    padding-left: 500px; padding-right: 500px;}
+h6 {border-top:5px groove tomato;
+    border-right:5px none grey;
+    padding-left: 500px; padding-right: 500px;}
+h7 {border-top:8px inset black;
+    border-right:8px double purple;
+    border-bottom:8px inset black;
+    border-left:8px double purple
+    }
+
+ p{display:block;border:3px solid brown;}
+

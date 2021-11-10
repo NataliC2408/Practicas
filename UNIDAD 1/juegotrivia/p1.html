@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body background="http://pa1.narvii.com/7059/592016ecbba8ea019f1afe863d426a351b7ebd20r1-320-180_00.gif">
+    <header>
+    <!--Titulo-->
+    <center><h1>CULTURIVIA</h1></center>
+    </header>
+    <!--Barra horizontal-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="base.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="reglas.html">Reglas</a>
+                </li>
+                <li>
+                    <a href="comojugarr.html">Cómo jugar</a>
+                </li>
+                <li>
+                    <a href="soporte.html">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+  <style>
+      *{
+          transition: all 0.3s;
+    }
+    </style>
+    <main class="question">
+    <div class="contenedor">
+        <div class="encabezado">
+            <div class="categoria">
+                Literatura
+            </div>
+            <div class="pregunta">
+                    ¿Quién pinto la mona lisa?
+            </div>
+            <img src="https://cope-cdnmed.agilecontent.com/resources/jpg/0/3/1536490088830.jpg" class="image" >
+        </div>
+        <div class="btn">
+            <button type="button" name="opc1" id="btn1" onclick="funciona()">
+            <label for="btn1">Leonardo da Vinci</label>
+            </div>
+            <div class="btn">
+            <button type="button" name="opc2" id="btn2" onclick="funciona()">
+            <label for="btn2">Picasso</label>
+            </div>
+            <div class="btn">
+            <button type="button" name="opc3" id="btn3" onclick="funciona()">
+            <label for="btn3">Leonardo DiCaprio</label>
+            </div>
+            <div class="btn">
+            <button type="button" name="opc4" id="btn4" onclick="funciona()">
+            <label for="btn4">Monet</label> 
+            </div>
+    </main>
+    <div class="button">
+       <a href="p2.html"><button type="button" id="enviar" onclick="datos()">Siguiente pregunta</button></a>
+        <script src="cultrivia.js"></script>
+    </div>
+</body>
+</html>

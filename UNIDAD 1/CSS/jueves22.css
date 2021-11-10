@@ -1,0 +1,15 @@
+body {font-family: sans-serif;}
+
+nav {width:200px;}
+#title {text-align: center ;text-decoration:underline;}
+
+ul {width:200px; list-style: none; line-height: 30px;margin:0;padding:0;}
+
+li:first-child {background-color:black;}
+li:first-child a {color:orangered}
+li:first-child a:hover {background-color: orchid;}
+.item {border:2px dotted blueviolet}
+a:hover {background-color: palegreen;}
+a:active {background-color: palevioletred;color: peru;}
+a {text-decoration:none;color:orange;padding-left: 8px;display:block}
+li:first-child {background-color: purple;}

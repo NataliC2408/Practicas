@@ -1,0 +1,12 @@
+.right{
+    background:salmon;
+   }
+    .wrong{
+        background:greenyellow;
+    }
+img{
+    height: 200px;
+}  
+.mamotreto{
+    display: none;
+} 
